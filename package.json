@@ -1,0 +1,28 @@
+{
+  "name": "sample-ui-usql",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "mobx": "^4.1.1",
+    "mobx-react": "^5.0.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-scripts-ts": "2.14.0",
+    "tonva-react-form": "git+https://github.com/HenryTi/tonva-react-form.git",
+    "tonva-react-usql": "git+https://github.com/henryti/tonva-react-usql.git",
+    "tonva-tools": "git+https://github.com/HenryTi/tonva-tools.git"
+  },
+  "scripts": {
+    "start": "set PORT=3002 && react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "@types/node": "^9.6.4",
+    "@types/react": "^16.3.10",
+    "@types/react-dom": "^16.0.5",
+    "typescript": "^2.8.1"
+  }
+}
