@@ -7,7 +7,7 @@
     "mobx-react": "^5.0.0",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-scripts-ts": "2.14.0",
+    "react-scripts-ts": "^2.14.0",
     "tonva-react-form": "git+https://github.com/HenryTi/tonva-react-form.git",
     "tonva-react-usql": "git+https://github.com/henryti/tonva-react-usql.git",
     "tonva-tools": "git+https://github.com/HenryTi/tonva-tools.git"
