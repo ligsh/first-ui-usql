@@ -17,8 +17,7 @@ const uiMappers: {[api:string]: EntitiesMapper} = {
 
 class App extends React.Component {
     render() {
-        return <div>ui-usql</div>;      
-        //return (<NavView view={<UsqlHome appName={tonvaApp} uiMappers={uiMappers} />} />);
+        return (<NavView view={<UsqlHome appName={tonvaApp} uiMappers={uiMappers} />} />);
     }
 }
 

@@ -2,6 +2,7 @@
   "name": "sample-ui-usql",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "mobx": "^4.1.1",
     "mobx-react": "^5.0.0",
