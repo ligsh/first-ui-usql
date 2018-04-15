@@ -8,11 +8,20 @@ import {pageMapper as 货主Mapper} from './货主';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
+/*
 const tonvaApp = '$$$/ui-usql-first';
 const uiMappers: {[api:string]: EntitiesMapper} = {
     "$$$/usql-first": pageMapper,
     //"$$$/货主": 货主Mapper,
     "$$$/货主": null,
+};
+*/
+
+const tonvaApp = 'devapp/DevApp';
+const uiMappers: {[api:string]: EntitiesMapper} = {
+    "DevApp/devappApi": pageMapper,
+    //"$$$/货主": 货主Mapper,
+    //"$$$/货主": null,
 };
 
 class App extends React.Component {
