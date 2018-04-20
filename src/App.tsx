@@ -17,9 +17,9 @@ const uiMappers: {[api:string]: EntitiesMapper} = {
 };
 */
 
-const tonvaApp = 'devapp/DevApp';
+const tonvaApp = '百灵威系统工程部/first-app';
 const uiMappers: {[api:string]: EntitiesMapper} = {
-    "DevApp/devappApi": pageMapper,
+    "百灵威系统工程部/usql-api-test": pageMapper,
     //"$$$/货主": 货主Mapper,
     //"$$$/货主": null,
 };
