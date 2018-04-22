@@ -28,7 +28,7 @@ class App extends React.Component {
     onTest() {
     }
     render() {
-        return (<NavView view={<UsqlHome appName={tonvaApp} uiMappers={uiMappers} />} />);
+        return (<NavView view={<UsqlHome caption="李国声-学习" appName={tonvaApp} uiMappers={uiMappers} />} />);
     }
 }
 
